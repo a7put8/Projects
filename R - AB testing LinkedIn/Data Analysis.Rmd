@@ -1,3 +1,38 @@
+---
+title: "Assignment 1A"
+author: "Aditya A Satpute"
+date: "2023-12-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r PowerAnalysis}
+
+# Load the pwr package
+library(pwr)
+
+# Set the effect size, significance level, and power
+f2 <- 0.15
+alpha <- 0.05
+power <- 0.8
+
+# Calculate the required sample size
+effect_size <- pwr.f2.test(u = 10, v = NULL, f2 = f2, sig.level = alpha, power = power)
+
+# Print the result
+cat("The required sample size is", ceiling(effect_size$u + effect_size$v + 1), "\n")
+
+
+```
+
+
+```{r EDA}
+
 library(tidyverse)
 # Load the data
 data <- read.csv("LinkedInData.csv")
@@ -30,6 +65,11 @@ ggplot(percentages, aes(x = "", y = Percentage, fill = as.factor(Response))) +
     size = 3
   )
 
+```
+
+
+```{r CovariateIbalance}
+
 ## Female Dummies
 female_dummy <- ifelse(data$Sex=="F",1,0)
 
@@ -44,14 +84,6 @@ connections2 <- ifelse(data$Number.of.connections >= 500,1,0)
 
 
 data = data[,c(-1,-8,-9,-11,-13)]
-
-
-############################################## Initial logistic regression model
-model <- glm(Response ~ Treatment_1 + Treatment_2 + Treatment_3 + Treatment_4 + female_dummy + connections1 + connections2 + Years_of_experience + large + medium, data = data, family = binomial)
-
-# Print the model summary
-summary(model)
-
 
 ############################################# Covariate imbalance check
 
@@ -111,8 +143,21 @@ summary(model4)
 
 ## Covariate balance achieved
 
+```
+
+
+```{r Regression}
+
+############################################## Initial logistic regression model
+model <- glm(Response ~ Treatment_1 + Treatment_2 + Treatment_3 + Treatment_4 + female_dummy + connections1 + connections2 + Years_of_experience + large + medium, data = data, family = binomial)
+
+# Print the model summary
+summary(model)
+
 ############################################################# Final Model
 
 model <- glm(Response ~ Treatment_1 + Treatment_2 + Treatment_3 + Treatment_4 + female_dummy + connections1 + connections2 + Years_of_experience, data = data, family = binomial)
 
 summary(model)
+
+```
