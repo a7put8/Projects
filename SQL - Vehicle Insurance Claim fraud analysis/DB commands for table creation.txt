@@ -1,0 +1,65 @@
+ALTER TABLE `vehicleinsurancefraud`.`customer` 
+CHANGE COLUMN `CustomerID` `CustomerID` INT NOT NULL ,
+ADD PRIMARY KEY (`CustomerID`);
+;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+CHANGE COLUMN `PolicyNumber` `PolicyNumber` INT NOT NULL ,
+ADD PRIMARY KEY (`PolicyNumber`);
+;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+CHANGE COLUMN `AgentID` `AgentID` CHAR(10) NULL DEFAULT NULL ;
+ALTER TABLE `vehicleinsurancefraud`.`claim` 
+ADD INDEX `PolicyNumber_idx` (`PolicyNumber` ASC) VISIBLE;
+;
+ALTER TABLE `vehicleinsurancefraud`.`claim` 
+ADD CONSTRAINT `PolicyNumber`
+  FOREIGN KEY (`PolicyNumber`)
+  REFERENCES `vehicleinsurancefraud`.`policy` (`PolicyNumber`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+ALTER TABLE `vehicleinsurancefraud`.`claim` 
+ADD INDEX `InvestigationID_idx` (`InvestigationID` ASC) VISIBLE;
+;
+ALTER TABLE `vehicleinsurancefraud`.`claim` 
+ADD CONSTRAINT `InvestigationID`
+  FOREIGN KEY (`InvestigationID`)
+  REFERENCES `vehicleinsurancefraud`.`investigation` (`InvestigationID`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+ALTER TABLE `vehicleinsurancefraud`.`claim` 
+ADD INDEX `AccidentID_idx` (`AccidentID` ASC) VISIBLE;
+;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+ADD INDEX `CustomerID_idx` (`CustomerID` ASC) VISIBLE;
+;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+ADD CONSTRAINT `CustomerID`
+  FOREIGN KEY (`CustomerID`)
+  REFERENCES `vehicleinsurancefraud`.`customer` (`CustomerID`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+ADD INDEX `PolicyTypeID_idx` (`PolicyTypeID` ASC) VISIBLE;
+;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+ADD CONSTRAINT `PolicyTypeID`
+  FOREIGN KEY (`PolicyTypeID`)
+  REFERENCES `vehicleinsurancefraud`.`policytypes` (`PolicyTypeID`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+ADD INDEX `AgentID_idx` (`AgentID` ASC) VISIBLE,
+ADD INDEX `VehicleID_idx` (`VehicleID` ASC) VISIBLE;
+;
+ALTER TABLE `vehicleinsurancefraud`.`policy` 
+ADD CONSTRAINT `AgentID`
+  FOREIGN KEY (`AgentID`)
+  REFERENCES `vehicleinsurancefraud`.`agent` (`AgentID`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION,
+ADD CONSTRAINT `VehicleID`
+  FOREIGN KEY (`VehicleID`)
+  REFERENCES `vehicleinsurancefraud`.`vehicle` (`VehicleID`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+

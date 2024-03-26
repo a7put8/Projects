@@ -1,0 +1,181 @@
+PolicyTypeID,PolicyType,BasePolicy,NumberOfSuppliments,NumberOfCars
+1,Sport - Liability,Liability,none,1 vehicle
+2,Sport - Liability,Liability,none,2 vehicles
+3,Sport - Liability,Liability,none,3 to 4
+4,Sport - Liability,Liability,none,5 to 8
+5,Sport - Liability,Liability,none,more than 8
+6,Sport - Liability,Liability,1 to 2,1 vehicle
+7,Sport - Liability,Liability,1 to 2,2 vehicles
+8,Sport - Liability,Liability,1 to 2,3 to 4
+9,Sport - Liability,Liability,1 to 2,5 to 8
+10,Sport - Liability,Liability,1 to 2,more than 8
+11,Sport - Liability,Liability,3 to 5,1 vehicle
+12,Sport - Liability,Liability,3 to 5,2 vehicles
+13,Sport - Liability,Liability,3 to 5,3 to 4
+14,Sport - Liability,Liability,3 to 5,5 to 8
+15,Sport - Liability,Liability,3 to 5,more than 8
+16,Sport - Liability,Liability,more than 5,1 vehicle
+17,Sport - Liability,Liability,more than 5,2 vehicles
+18,Sport - Liability,Liability,more than 5,3 to 4
+19,Sport - Liability,Liability,more than 5,5 to 8
+20,Sport - Liability,Liability,more than 5,more than 8
+21,Sport - Collision,Collision,none,1 vehicle
+22,Sport - Collision,Collision,none,2 vehicles
+23,Sport - Collision,Collision,none,3 to 4
+24,Sport - Collision,Collision,none,5 to 8
+25,Sport - Collision,Collision,none,more than 8
+26,Sport - Collision,Collision,1 to 2,1 vehicle
+27,Sport - Collision,Collision,1 to 2,2 vehicles
+28,Sport - Collision,Collision,1 to 2,3 to 4
+29,Sport - Collision,Collision,1 to 2,5 to 8
+30,Sport - Collision,Collision,1 to 2,more than 8
+31,Sport - Collision,Collision,3 to 5,1 vehicle
+32,Sport - Collision,Collision,3 to 5,2 vehicles
+33,Sport - Collision,Collision,3 to 5,3 to 4
+34,Sport - Collision,Collision,3 to 5,5 to 8
+35,Sport - Collision,Collision,3 to 5,more than 8
+36,Sport - Collision,Collision,more than 5,1 vehicle
+37,Sport - Collision,Collision,more than 5,2 vehicles
+38,Sport - Collision,Collision,more than 5,3 to 4
+39,Sport - Collision,Collision,more than 5,5 to 8
+40,Sport - Collision,Collision,more than 5,more than 8
+41,Sedan - Liability,Liability,none,1 vehicle
+42,Sedan - Liability,Liability,none,2 vehicles
+43,Sedan - Liability,Liability,none,3 to 4
+44,Sedan - Liability,Liability,none,5 to 8
+45,Sedan - Liability,Liability,none,more than 8
+46,Sedan - Liability,Liability,1 to 2,1 vehicle
+47,Sedan - Liability,Liability,1 to 2,2 vehicles
+48,Sedan - Liability,Liability,1 to 2,3 to 4
+49,Sedan - Liability,Liability,1 to 2,5 to 8
+50,Sedan - Liability,Liability,1 to 2,more than 8
+51,Sedan - Liability,Liability,3 to 5,1 vehicle
+52,Sedan - Liability,Liability,3 to 5,2 vehicles
+53,Sedan - Liability,Liability,3 to 5,3 to 4
+54,Sedan - Liability,Liability,3 to 5,5 to 8
+55,Sedan - Liability,Liability,3 to 5,more than 8
+56,Sedan - Liability,Liability,more than 5,1 vehicle
+57,Sedan - Liability,Liability,more than 5,2 vehicles
+58,Sedan - Liability,Liability,more than 5,3 to 4
+59,Sedan - Liability,Liability,more than 5,5 to 8
+60,Sedan - Liability,Liability,more than 5,more than 8
+61,Utility - All Perils,All Perils,none,1 vehicle
+62,Utility - All Perils,All Perils,none,2 vehicles
+63,Utility - All Perils,All Perils,none,3 to 4
+64,Utility - All Perils,All Perils,none,5 to 8
+65,Utility - All Perils,All Perils,none,more than 8
+66,Utility - All Perils,All Perils,1 to 2,1 vehicle
+67,Utility - All Perils,All Perils,1 to 2,2 vehicles
+68,Utility - All Perils,All Perils,1 to 2,3 to 4
+69,Utility - All Perils,All Perils,1 to 2,5 to 8
+70,Utility - All Perils,All Perils,1 to 2,more than 8
+71,Utility - All Perils,All Perils,3 to 5,1 vehicle
+72,Utility - All Perils,All Perils,3 to 5,2 vehicles
+73,Utility - All Perils,All Perils,3 to 5,3 to 4
+74,Utility - All Perils,All Perils,3 to 5,5 to 8
+75,Utility - All Perils,All Perils,3 to 5,more than 8
+76,Utility - All Perils,All Perils,more than 5,1 vehicle
+77,Utility - All Perils,All Perils,more than 5,2 vehicles
+78,Utility - All Perils,All Perils,more than 5,3 to 4
+79,Utility - All Perils,All Perils,more than 5,5 to 8
+80,Utility - All Perils,All Perils,more than 5,more than 8
+81,Sedan - All Perils,All Perils,none,1 vehicle
+82,Sedan - All Perils,All Perils,none,2 vehicles
+83,Sedan - All Perils,All Perils,none,3 to 4
+84,Sedan - All Perils,All Perils,none,5 to 8
+85,Sedan - All Perils,All Perils,none,more than 8
+86,Sedan - All Perils,All Perils,1 to 2,1 vehicle
+87,Sedan - All Perils,All Perils,1 to 2,2 vehicles
+88,Sedan - All Perils,All Perils,1 to 2,3 to 4
+89,Sedan - All Perils,All Perils,1 to 2,5 to 8
+90,Sedan - All Perils,All Perils,1 to 2,more than 8
+91,Sedan - All Perils,All Perils,3 to 5,1 vehicle
+92,Sedan - All Perils,All Perils,3 to 5,2 vehicles
+93,Sedan - All Perils,All Perils,3 to 5,3 to 4
+94,Sedan - All Perils,All Perils,3 to 5,5 to 8
+95,Sedan - All Perils,All Perils,3 to 5,more than 8
+96,Sedan - All Perils,All Perils,more than 5,1 vehicle
+97,Sedan - All Perils,All Perils,more than 5,2 vehicles
+98,Sedan - All Perils,All Perils,more than 5,3 to 4
+99,Sedan - All Perils,All Perils,more than 5,5 to 8
+100,Sedan - All Perils,All Perils,more than 5,more than 8
+101,Sedan - Collision,Collision,none,1 vehicle
+102,Sedan - Collision,Collision,none,2 vehicles
+103,Sedan - Collision,Collision,none,3 to 4
+104,Sedan - Collision,Collision,none,5 to 8
+105,Sedan - Collision,Collision,none,more than 8
+106,Sedan - Collision,Collision,1 to 2,1 vehicle
+107,Sedan - Collision,Collision,1 to 2,2 vehicles
+108,Sedan - Collision,Collision,1 to 2,3 to 4
+109,Sedan - Collision,Collision,1 to 2,5 to 8
+110,Sedan - Collision,Collision,1 to 2,more than 8
+111,Sedan - Collision,Collision,3 to 5,1 vehicle
+112,Sedan - Collision,Collision,3 to 5,2 vehicles
+113,Sedan - Collision,Collision,3 to 5,3 to 4
+114,Sedan - Collision,Collision,3 to 5,5 to 8
+115,Sedan - Collision,Collision,3 to 5,more than 8
+116,Sedan - Collision,Collision,more than 5,1 vehicle
+117,Sedan - Collision,Collision,more than 5,2 vehicles
+118,Sedan - Collision,Collision,more than 5,3 to 4
+119,Sedan - Collision,Collision,more than 5,5 to 8
+120,Sedan - Collision,Collision,more than 5,more than 8
+121,Utility - Collision,Collision,none,1 vehicle
+122,Utility - Collision,Collision,none,2 vehicles
+123,Utility - Collision,Collision,none,3 to 4
+124,Utility - Collision,Collision,none,5 to 8
+125,Utility - Collision,Collision,none,more than 8
+126,Utility - Collision,Collision,1 to 2,1 vehicle
+127,Utility - Collision,Collision,1 to 2,2 vehicles
+128,Utility - Collision,Collision,1 to 2,3 to 4
+129,Utility - Collision,Collision,1 to 2,5 to 8
+130,Utility - Collision,Collision,1 to 2,more than 8
+131,Utility - Collision,Collision,3 to 5,1 vehicle
+132,Utility - Collision,Collision,3 to 5,2 vehicles
+133,Utility - Collision,Collision,3 to 5,3 to 4
+134,Utility - Collision,Collision,3 to 5,5 to 8
+135,Utility - Collision,Collision,3 to 5,more than 8
+136,Utility - Collision,Collision,more than 5,1 vehicle
+137,Utility - Collision,Collision,more than 5,2 vehicles
+138,Utility - Collision,Collision,more than 5,3 to 4
+139,Utility - Collision,Collision,more than 5,5 to 8
+140,Utility - Collision,Collision,more than 5,more than 8
+141,Utility - Liability,Liability,none,1 vehicle
+142,Utility - Liability,Liability,none,2 vehicles
+143,Utility - Liability,Liability,none,3 to 4
+144,Utility - Liability,Liability,none,5 to 8
+145,Utility - Liability,Liability,none,more than 8
+146,Utility - Liability,Liability,1 to 2,1 vehicle
+147,Utility - Liability,Liability,1 to 2,2 vehicles
+148,Utility - Liability,Liability,1 to 2,3 to 4
+149,Utility - Liability,Liability,1 to 2,5 to 8
+150,Utility - Liability,Liability,1 to 2,more than 8
+151,Utility - Liability,Liability,3 to 5,1 vehicle
+152,Utility - Liability,Liability,3 to 5,2 vehicles
+153,Utility - Liability,Liability,3 to 5,3 to 4
+154,Utility - Liability,Liability,3 to 5,5 to 8
+155,Utility - Liability,Liability,3 to 5,more than 8
+156,Utility - Liability,Liability,more than 5,1 vehicle
+157,Utility - Liability,Liability,more than 5,2 vehicles
+158,Utility - Liability,Liability,more than 5,3 to 4
+159,Utility - Liability,Liability,more than 5,5 to 8
+160,Utility - Liability,Liability,more than 5,more than 8
+161,Sport - All Perils,All Perils,none,1 vehicle
+162,Sport - All Perils,All Perils,none,2 vehicles
+163,Sport - All Perils,All Perils,none,3 to 4
+164,Sport - All Perils,All Perils,none,5 to 8
+165,Sport - All Perils,All Perils,none,more than 8
+166,Sport - All Perils,All Perils,1 to 2,1 vehicle
+167,Sport - All Perils,All Perils,1 to 2,2 vehicles
+168,Sport - All Perils,All Perils,1 to 2,3 to 4
+169,Sport - All Perils,All Perils,1 to 2,5 to 8
+170,Sport - All Perils,All Perils,1 to 2,more than 8
+171,Sport - All Perils,All Perils,3 to 5,1 vehicle
+172,Sport - All Perils,All Perils,3 to 5,2 vehicles
+173,Sport - All Perils,All Perils,3 to 5,3 to 4
+174,Sport - All Perils,All Perils,3 to 5,5 to 8
+175,Sport - All Perils,All Perils,3 to 5,more than 8
+176,Sport - All Perils,All Perils,more than 5,1 vehicle
+177,Sport - All Perils,All Perils,more than 5,2 vehicles
+178,Sport - All Perils,All Perils,more than 5,3 to 4
+179,Sport - All Perils,All Perils,more than 5,5 to 8
+180,Sport - All Perils,All Perils,more than 5,more than 8
